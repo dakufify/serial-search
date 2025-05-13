@@ -1,5 +1,5 @@
-import os,sys
-from aiogram import Bot, Dispatcher, types
+import os
+from aiogram import Bot, Dispatcher
 from aiogram.filters import Command
 from aiogram.types import Message
 from dotenv import load_dotenv
