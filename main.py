@@ -4,7 +4,7 @@ from aiogram.filters import Command
 from aiogram.types import Message
 from dotenv import load_dotenv
 
-load_dotenv()  # загружаем переменные из .env test
+load_dotenv()  # загружаем переменные из .env test_git
 
 bot = Bot(token=os.getenv("BOT_TOKEN"))
 dp = Dispatcher()
